@@ -13,4 +13,6 @@ bool isPrima(int n) {
     while (i < n) {
         if (n % i == 0) {
              return false;
-        
+         }
+        i++;
+    }
