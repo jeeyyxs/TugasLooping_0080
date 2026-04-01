@@ -87,3 +87,11 @@ int main() {
              case 0:
                 cout << "Program selesai.\n";
                 return 0;
+
+             default:
+                cout << "Pilihan tidak valid!\n";
+        }
+    }
+
+    return 0;
+}
